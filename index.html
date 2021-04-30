@@ -1,0 +1,135 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Freckle+Face&family=Indie+Flower&display=swap">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> MY HELLO WORLD GAME </title>
+</head>
+<body class="background-light-grey content" style="max-width:1600px">
+
+    <!-- Sidebar/menu -->
+    <nav class="sidebar bar-block white animate-left white text-grey collapse top center-sidebar" style="z-index:3;width:300px;font-weight:bold" id="mySidebar">
+        <br>
+        <img class="logo" src="Images/logo.png" />
+        <a href="#" class="bar-item button">CHARACTER</a>
+        <a href="#about" class="bar-item button">ABOUT GAME</a>
+        <a href="#contact" class="bar-item button">CONTACT</a>
+    </nav>
+
+    <!-- Top menu on small screens -->
+    <div class="mobile-logo"> <img class="logo" src="Images/logo.png" /> </div>  
+
+    <!-- !PAGE CONTENT! -->
+    <div class="main" style="margin-left:300px">
+
+        <!-- Push down content on small screens -->
+        <div class="hide-large" style="margin-top:200px"></div>
+
+        <!-- Photo grid -->
+
+        <div class="row">
+            <div class="column"><a href="Babarian.html"> <img style="width:100%" src="Images/char1.png" class="third" alt="Babarian"> </a></div>
+            <div class="column"><a href="Babarian.html"> <img style="width:100%" src="Images/char3.png" class="third" alt="Angle"> </a></div>
+            <div class="column"><a href="Babarian.html"> <img style="width:100%" src="Images/char5.png" class="third" alt="Queen of Ice"></div>
+        </div>
+
+        <div class="row">
+            <div class="column"><a href="Babarian.html"> <img style="width:100%" src="Images/char2.png" class="third" alt="Medusa"> </a></div>
+            <div class="column"><a href="Babarian.html"> <img style="width:100%" src="Images/char4.png" class="third" alt="Santa Claus"> </a></div>
+            <div class="column"><a href="Babarian.html"> <img style="width:100%" src="Images/char6.png" class="third" alt="Hafling Deer"> </a></div>
+        </div>
+
+        <!-- About section -->
+        <div class="container dark-grey center text-light-grey padding-32">
+            <img src="Images/logo.png" alt="Me" class="image padding-32" width="600" height="650" id="about">
+            <div class="content justify" style="max-width:600px">
+                <h2>Introduction</h2>
+                <p>
+                    Some text about me. I love taking photos of PEOPLE. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+                <hr class="opacity">
+                <h2 class="padding-16">Technical Skills</h2>
+                <p class="wide">Photography</p>
+                <div class="white">
+                    <div class="container padding-small center grey" style="width:95%">95%</div>
+                </div>
+                <p class="wide">Web Design</p>
+                <div class="white">
+                    <div class="container padding-small center grey" style="width:85%">85%</div>
+                </div>
+                <p class="wide">Photoshop</p>
+                <div class="white">
+                    <div class="container padding-small center grey" style="width:80%">80%</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact section -->
+        <div class="container light-grey center padding-32 padding-large" id="contact">
+            <div class="content" style="max-width:600px">
+                <h2 class="center"><b>CONTACT ME</b></h2>
+                <p>Do you want me to photograph you? Fill out the form and fill me in with the details :) I love meeting new people!</p>
+                <form action="/action_page.php" target="_blank">
+                    <div class="section">
+                        <label>Name</label>
+                        <input class="border" type="text" name="Name" required>
+                    </div>
+                    <div class="section">
+                        <label>Email</label>
+                        <input class="border" type="text" name="Email" required>
+                    </div>
+                    <div class="section">
+                        <label>Message</label>
+                        <input class="border" type="text" name="Message" required>
+                    </div>
+                    <button type="submit" class="block black dark-grey argin-bottom">Send Message</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="container padding-32 grey">
+            <div class="row">
+                <div class="column">
+                    <h3>INFO</h3>
+                    <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                </div>
+
+                <div class="column">
+                    <h3>BLOG POSTS</h3>
+                    <ul class="ul">
+                        <li class="padding-16 hover-black">
+                            <img src="/w3images/workshop.jpg" class="left margin-right" style="width:50px">
+                            <span class="large">Lorem</span><br>
+                            <span>Sed mattis nunc</span>
+                        </li>
+                        <li class="padding-16 hover-black">
+                            <img src="/w3images/gondol.jpg" class="left margin-right" style="width:50px">
+                            <span class="large">Ipsum</span><br>
+                            <span>Praes tinci sed</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="column">
+                    <h3>POPULAR TAGS</h3>
+                    <p>
+                        <span class="tag black margin-bottom">RoyalRaffle</span>
+                        <span class="tag dark-grey small margin-bottom">RPGGAME</span>
+                        <span class="tag dark-grey small margin-bottom">Indiegame</span>
+                        <span class="tag dark-grey small margin-bottom">Leisure bestchoice</span>
+                        <span class="tag dark-grey small margin-bottom">NANYKAlab</span>
+                        <span class="tag dark-grey small margin-bottom">AquamarineProducts</span>
+                    </p>
+                </div>
+            </div>
+        </footer>
+
+        <!-- End page content -->
+    </div>
+</body>
+</html>
