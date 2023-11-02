@@ -1,162 +1,122 @@
-﻿<!DOCTYPE html>
-<html lang="en">
-<head>
-    <link rel="stylesheet" href="styleGamePage.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Freckle+Face&family=Indie+Flower&display=swap">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="referer" content="always">
-    <title> MY HELLO WORLD GAME </title>
-</head>
-<body class="background-light-grey content" style="max-width:1600px">
-
-    <!-- Sidebar/menu -->
-    <nav class="sidebar bar-block white animate-left white text-grey collapse top center-sidebar" style="z-index:3;width:300px;font-weight:bold" id="mySidebar">
-        <br>
-        <img class="logo" src="Images/logo.png" alt="Game Logo" />
-        <a href="#" class="bar-item button">CHARACTER</a>
-        <a href="#about" class="bar-item button">ABOUT GAME</a>
-        <a href="#contact" class="bar-item button">CONTACT</a>
-    </nav>
-
-    <!-- Top menu on small screens -->
-    <div class="mobile-logo"> <img class="logo" src="Images/logo.png" alt="Game Logo" /> </div>
-
-    <!-- !PAGE CONTENT! -->
-    <div class="main" style="margin-left:300px">
-
-        <!-- Push down content on small screens -->
-        <div class="hide-large" style="margin-top:200px"></div>
-
-        <!-- Photo grid -->
-
-        <div class="row">
-            <div class="column"><a href="Babarian.html"> <img style="width:100%" src="Images/char1.png" class="third" alt="Babarian"> </a></div>
-            <div class="column"><a href="Angle.html"> <img style="width:100%" src="Images/char3.png" class="third" alt="Angle"> </a></div>
-            <div class="column"><a href="Queen.html"> <img style="width:100%" src="Images/char5.png" class="third" alt="Queen of Ice"></a></div>
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | MyPortfolio</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+  </head>
+  <body>
+    <div id="unity-container" class="unity-desktop">
+      <canvas id="unity-canvas" width=960 height=600 tabindex="-1"></canvas>
+      <div id="unity-loading-bar">
+        <div id="unity-logo"></div>
+        <div id="unity-progress-bar-empty">
+          <div id="unity-progress-bar-full"></div>
         </div>
-
-        <div class="row">
-            <div class="column"><a href="Medusa.html"> <img style="width:100%" src="Images/char2.png" class="third" alt="Medusa"></a></div>
-            <div class="column"><a href="Santa.html"> <img style="width:100%" src="Images/char4.png" class="third" alt="Santa Claus"></a></div>
-            <div class="column"><a href="Deer.html"> <img style="width:100%" src="Images/char6.png" class="third" alt="Hafling Deer"></a></div>
-        </div>
-
-        <!-- About section -->
-        <div class="container dark-grey center text-light-grey padding-32">
-            <img src="Images/logo.png" alt="Me" class="image padding-32" width="600" height="650" id="about">
-            <div class="content justify" style="max-width:600px">
-                <h2>Introduction</h2>
-                <p>
-                    Being Inspired by playing some battle games is that it takes much time to play. As a result, one creative idea was chosen to create a battle game in a more straightforward way.
-                    At the beginning of the project, the game product is a simple graphics platform and is not reachable for customers’ interest in playing the game.
-                    The purpose of this game is to create entertaining and easy to understand for players having fun in leisure time that can be played with one finger and publish this game to some game channels.
-                    Just one finger to control characters in gameplay can bring customers having a highly entertaining time.Game Players manage their characters, movement, avoid trap systems, and attack other characters following to change the position character of each other and how to try keeping characters’ lives
-                </p>
-                <hr class="opacity">
-                <h2 class="padding-16">Work We Done</h2>
-                <p class="wide">Photography</p>
-                <div class="white">
-                    <div class="container padding-small center grey" style="width:95%">95%</div>
-                </div>
-                <p class="wide">Unity Programming</p>
-                <div class="white">
-                    <div class="container padding-small center grey" style="width:85%">85%</div>
-                </div>
-                <p class="wide">Audio</p>
-                <div class="white">
-                    <div class="container padding-small center grey" style="width:80%">80%</div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Contact section -->
-        <div class="container light-grey center padding-32 padding-large" id="contact">
-            <div class="content" style="max-width:600px">
-                <h2 class="center"><b>CONTACT ME</b></h2>
-                <p>Do this game inspire you? Fill out the form and fill me in with the details :) I love meeting new people and listen to feetbacks!</p>
-                <form action="/action_page.php" target="_blank">
-                    <div class="section">
-                        <label>Name</label>
-                        <input class="border" type="text" name="Name" required>
-                    </div>
-                    <div class="section">
-                        <label>Email</label>
-                        <input class="border" type="text" name="Email" required>
-                    </div>
-                    <div class="section">
-                        <label>Message</label>
-                        <input class="border" type="text" name="Message" required>
-                    </div>
-                    <button type="submit" class="block black dark-grey argin-bottom">Send Message</button>
-                </form>
-            </div>
-        </div>
-
-        <!-- Footer -->
-        <footer class="container padding-32 grey">
-            <div class="row">
-                <div class="column">
-                    <h3>INFO</h3>
-                    <p>Nanyka Lab is an indie game studio that locate at Ho Chi Minh city. Our vision focus on integrating economic concepts into game mechanics.</p>
-                </div>
-
-                <div class="column">
-                    <h3>REFERENCES</h3>
-                    <ul class="ul">
-                        <li class="padding-16 hover-black">
-                            <a href="https://www.reuters.com/article/esports-business-gaming-economy-idUSFLM6F7yh2">
-                                <img src="Images/Reuters.png" class="left margin-right" style="width:50px" alt="Workshop">
-                            </a>
-                            <span class="large">Reuters</span><br>
-                            <span>Gaming industry contributed $90B to U.S. economy in 2019</span>
-                        </li>
-                        <li class="padding-16 hover-black">
-                            <a href="https://www.washingtonpost.com/news/wonk/wp/2012/09/28/the-economics-of-video-games/">
-                                <img src="Images/WP.png" class="left margin-right" style="width:50px" alt="Newspaper">
-                            </a>
-                            <span class="large">The Washington Post</span><br>
-                            <span>The economics of video games</span>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="column">
-                    <h3>POPULAR TAGS</h3>
-                    <p>
-                        <span class="tag black margin-bottom">RoyalRaffle</span>
-                        <span class="tag dark-grey small margin-bottom">RPGGAME</span>
-                        <span class="tag dark-grey small margin-bottom">Indiegame</span>
-                        <span class="tag dark-grey small margin-bottom">Leisure bestchoice</span>
-                        <span class="tag dark-grey small margin-bottom">NANYKAlab</span>
-                        <span class="tag dark-grey small margin-bottom">AquamarineProducts</span>
-                    </p>
-                </div>
-
-            </div>
-
-            <!-- Validation -->
-            <wbr>
-            <div class="center">
-                <p>
-                    &copy; BinhLai, 2021<br />
-                    <a href="http://validator.w3.org/check?uri=https://nanyka.github.io/index.html">
-                        <img style="border:none;height:31px;width:31px;text-decoration:none;"
-                             src="http://myy.haaga-helia.fi/~valju/ValidatorLogos/html_logo_grayscale_31.png"
-                             alt="Valid HTML" />
-                    </a>
-
-                    <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fnanyka.github.io%2FstyleGamePage.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">
-                        <img style="border:none;width:88px;height:31px;text-decoration:none;"
-                             src="http://myy.haaga-helia.fi/~valju/ValidatorLogos/css_logo_grayscale_31.png"
-                             alt="Valid CSS" />
-                    </a>
-                </p>
-            </div>
-
-        </footer>
-
-        <!-- End page content -->
+      </div>
+      <div id="unity-warning"> </div>
+      <div id="unity-footer">
+        <div id="unity-webgl-logo"></div>
+        <div id="unity-fullscreen-button"></div>
+        <div id="unity-build-title">MyPortfolio</div>
+      </div>
     </div>
-</body>
+    <script>
+
+      var container = document.querySelector("#unity-container");
+      var canvas = document.querySelector("#unity-canvas");
+      var loadingBar = document.querySelector("#unity-loading-bar");
+      var progressBarFull = document.querySelector("#unity-progress-bar-full");
+      var fullscreenButton = document.querySelector("#unity-fullscreen-button");
+      var warningBanner = document.querySelector("#unity-warning");
+
+      // Shows a temporary message banner/ribbon for a few seconds, or
+      // a permanent error message on top of the canvas if type=='error'.
+      // If type=='warning', a yellow highlight color is used.
+      // Modify or remove this function to customize the visually presented
+      // way that non-critical warnings and error messages are presented to the
+      // user.
+      function unityShowBanner(msg, type) {
+        function updateBannerVisibility() {
+          warningBanner.style.display = warningBanner.children.length ? 'block' : 'none';
+        }
+        var div = document.createElement('div');
+        div.innerHTML = msg;
+        warningBanner.appendChild(div);
+        if (type == 'error') div.style = 'background: red; padding: 10px;';
+        else {
+          if (type == 'warning') div.style = 'background: yellow; padding: 10px;';
+          setTimeout(function() {
+            warningBanner.removeChild(div);
+            updateBannerVisibility();
+          }, 5000);
+        }
+        updateBannerVisibility();
+      }
+
+      var buildUrl = "Build";
+      var loaderUrl = buildUrl + "/mypoortfolio.loader.js";
+      var config = {
+        dataUrl: buildUrl + "/mypoortfolio.data.gz",
+        frameworkUrl: buildUrl + "/mypoortfolio.framework.js.gz",
+        codeUrl: buildUrl + "/mypoortfolio.wasm.gz",
+        streamingAssetsUrl: "StreamingAssets",
+        companyName: "DefaultCompany",
+        productName: "MyPortfolio",
+        productVersion: "1.02",
+        showBanner: unityShowBanner,
+      };
+
+      // By default, Unity keeps WebGL canvas render target size matched with
+      // the DOM size of the canvas element (scaled by window.devicePixelRatio)
+      // Set this to false if you want to decouple this synchronization from
+      // happening inside the engine, and you would instead like to size up
+      // the canvas DOM size and WebGL render target sizes yourself.
+      // config.matchWebGLToCanvasSize = false;
+
+      if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
+        // Mobile device style: fill the whole browser client area with the game canvas:
+
+        var meta = document.createElement('meta');
+        meta.name = 'viewport';
+        meta.content = 'width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, shrink-to-fit=yes';
+        document.getElementsByTagName('head')[0].appendChild(meta);
+        container.className = "unity-mobile";
+        canvas.className = "unity-mobile";
+
+        // To lower canvas resolution on mobile devices to gain some
+        // performance, uncomment the following line:
+        // config.devicePixelRatio = 1;
+
+
+      } else {
+        // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
+
+        canvas.style.width = "960px";
+        canvas.style.height = "600px";
+      }
+
+      loadingBar.style.display = "block";
+
+      var script = document.createElement("script");
+      script.src = loaderUrl;
+      script.onload = () => {
+        createUnityInstance(canvas, config, (progress) => {
+          progressBarFull.style.width = 100 * progress + "%";
+              }).then((unityInstance) => {
+                loadingBar.style.display = "none";
+                fullscreenButton.onclick = () => {
+                  unityInstance.SetFullscreen(1);
+                };
+              }).catch((message) => {
+                alert(message);
+              });
+            };
+
+      document.body.appendChild(script);
+
+    </script>
+  </body>
 </html>
