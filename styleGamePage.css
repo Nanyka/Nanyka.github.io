@@ -1,0 +1,461 @@
+/* General styles*/
+
+* {
+    box-sizing: border-box;
+}
+
+body, h1, h2, h3, h4, h5 {
+    font-style: normal;
+    font-weight: 400;
+    font-family: 'Indie Flower', cursive;
+}
+
+input {
+    padding: 8px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+}
+
+button {
+    width: 100%;
+    padding: 8px 16px
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0
+}
+
+li {
+    padding: 8px 16px;
+    border-bottom: 1px solid #ddd
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 50%
+}
+
+.largescreenlogo {
+    width: auto;
+    align-items: center;
+}
+
+/* Style the header */
+.header {
+    grid-area: header;
+    background-color: #f1f1f1;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+}
+
+/* The grid container */
+.grid-container {
+    display: grid;
+    grid-template-areas: 'header header header header header header' 'left left middle middle right right' 'footer footer footer footer footer footer';
+    /* grid-column-gap: 10px; - if you want gap between the columns */
+}
+
+.left,
+.middle,
+.right {
+    padding: 10px;
+}
+
+/* Style the left column */
+.left {
+    float: left !important
+}
+
+/* Style the middle column */
+.middle {
+    grid-area: middle;
+}
+
+/* Style the right column */
+.right {
+    grid-area: right;
+}
+
+.padding {
+    padding: 8px 16px !important
+}
+
+/* Style the footer */
+.footer {
+    grid-area: footer;
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Style background */
+.background-light-grey {
+    color: #000 !important;
+    background-color: #f1f1f1 !important
+}
+
+/* Style colours */
+
+.white {
+    color: #000 !important;
+    background-color: #fff !important
+}
+
+.text-white {
+    color: #000 !important
+}
+
+.grey {
+    color: #000 !important;
+    background-color: #9e9e9e !important
+}
+
+.text-grey {
+    color: #757575 !important
+}
+
+.dark-grey {
+    color: #fff !important;
+    background-color: #616161 !important;
+}
+
+.dark-grey:hover {
+    color: #fff !important;
+    background-color: #616161 !important;
+}
+
+.light-grey {
+    color: #000 !important;
+    background-color: #f1f1f1 !important
+}
+
+.light-grey:hover {
+    color: #000 !important;
+    background-color: #f1f1f1 !important
+}
+
+.text-light-grey:hover {
+    color: #f1f1f1 !important;
+}
+
+.black {
+    color: #fff !important;
+    background-color: #000 !important
+}
+
+.hover-black:hover {
+    color: #fff !important;
+    background-color: #000 !important
+}
+
+.opacity:hover {
+    opacity: 0.60;
+}
+
+.card {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12)
+}
+
+.darkbackground {
+    background-color: #757575 !important;
+    opacity: 0.8;
+}
+
+/* Style composition */
+.collapse {
+    display: none
+}
+
+.top {
+    top: 0
+}
+
+.center {
+    text-align: center
+}
+
+.center-sidebar {
+    text-align: center;
+}
+
+.content {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 980px;
+}
+
+.container {
+    display: inline-block;
+    padding: 0.01em 16px;
+}
+
+.section {
+    margin-top: 16px !important;
+    margin-bottom: 16px !important
+}
+
+.padding-16 {
+    padding-top: 16px !important;
+    padding-bottom: 16px !important
+}
+
+.padding-32 {
+    padding-top: 32px !important;
+    padding-bottom: 32px !important;
+}
+
+.padding-64 {
+    padding-top: 64px !important;
+    padding-bottom: 64px !important;
+}
+
+.padding-small {
+    padding: 4px 8px !important
+}
+
+.padding-large {
+    padding: 12px 24px !important
+}
+
+.row-padding {
+    padding: 0 8px;
+}
+
+.margin-bottom {
+    margin-bottom: 16px !important
+}
+
+.margin-right {
+    margin-right: 16px !important
+}
+
+.third {
+    float: left;
+    width: 33%;
+}
+
+/* Container for flexboxes */
+.row {
+    display: flex;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+    flex: 1;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.column:hover {
+    opacity: 1;
+    display: block;
+}
+
+.image {
+    max-width: 100%;
+    height: auto
+}
+
+.justify {
+    text-align: justify !important
+}
+
+.wide {
+    letter-spacing: 4px
+}
+
+.block {
+    display: block;
+    width: 100%
+}
+
+.bar {
+    display: inline-block;
+    width: auto
+}
+
+.bar-item {
+    padding: 8px 16px;
+    float: left;
+    width: auto;
+    border: none;
+    display: block;
+    outline: 0;
+}
+
+/* Style animations */
+
+.animate-left {
+    position: relative;
+    animation: animateleft 0.4s
+}
+
+@keyframes animateleft {
+    from {
+        left: -300px;
+        opacity: 0
+    }
+
+    to {
+        left: 0;
+        opacity: 1
+    }
+}
+
+/* Style size */
+
+.large {
+    font-size: 18px !important
+}
+
+.hide-large {
+    display: none !important
+}
+
+.xlarge {
+    font-size: 24px !important
+}
+
+.small {
+    font-size: 12px !important
+}
+
+/* Style the rest elements */
+
+.sidebar {
+    height: 100%;
+    width: 200px;
+    background-color: #fff;
+    position: fixed !important;
+    z-index: 1;
+    overflow: auto;
+}
+
+.bgimg {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
+}
+
+.bar-block {
+    width: 100%;
+    display: block;
+    padding: 100px 16px;
+    text-align: left;
+    border: none;
+    white-space: normal;
+    float: none;
+    outline: 0
+}
+
+.bar-item {
+    width: 100%;
+    display: block;
+    padding: 8px 16px;
+    border: none;
+    white-space: normal;
+    float: none;
+    outline: 0;
+    text-align: center
+}
+
+.border {
+    border: 1px solid #ccc !important
+}
+
+.tag {
+    background-color: #000;
+    color: #fff;
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center
+}
+
+.jumbo {
+    font-size: 64px !important
+}
+
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .grid-container {
+        grid-template-areas: 'header header header header header header' 'left left left left left left' 'middle middle middle middle middle middle' 'right right right right right right' 'footer footer footer footer footer footer';
+    }
+
+    .center-sidebar {
+        display: none;
+    }
+
+    .largescreenlogo {
+        display: none;
+        height: 0px;
+    }
+
+    .mobile-logo {
+        width: auto;
+        align-items: center
+    }
+
+    .main {
+        margin-left: 0 !important;
+        margin-right: 0 !important
+    }
+
+    .third {
+        width: 100% !important;
+        padding: 0 8px
+    }
+
+    .row {
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 610px) {
+    .center {
+        display: block;
+        width: auto;
+        text-align: center
+    }
+
+    .container {
+        padding: 0.01em 16px
+    }
+
+    .mobile-logo {
+        display: none;
+        height: 0px
+    }
+}
+
+img {
+    position: relative;
+}
+
+.image-text {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 70%;
+    height: 1000%;
+    text-align: center;
+    padding: 20px;
+}
+
+img:hover .image-text {
+    display: block;
+}
+
