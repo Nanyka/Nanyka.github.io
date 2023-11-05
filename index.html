@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="styleGamePage.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
     <link rel="stylesheet"
           href="https://fonts.googleapis.com/css2?family=Freckle+Face&family=Indie+Flower&display=swap">
     <meta charset="UTF-8">
@@ -12,17 +13,39 @@
 <body class="background-light-grey content" style="max-width:1600px">
 
 <!-- Sidebar/menu -->
-<nav class="sidebar bar-block white animate-left white text-grey collapse top center-sidebar"
+<nav class="sidebar bar-block animate-left grey text-white collapse top center-sidebar"
      style="z-index:3;width:300px;font-weight:bold" id="mySidebar">
     <br>
-    <img class="logo" src="Images/logo.png" alt="Game Logo"/>
-    <a href="#" class="bar-item button">CHARACTER</a>
-    <a href="#about" class="bar-item button">ABOUT GAME</a>
-    <a href="#contact" class="bar-item button">CONTACT</a>
+    <img class="logo" src="Images/PersonalLogo.png" alt="Personal Logo"/>
+    <a href="#about" class="bar-item button">ABOUT ME</a>
+    <a href="#skill" class="bar-item button">SKILLS</a>
+    <a href="#experience" class="bar-item button">EXPERIENCE</a>
 </nav>
 
 <!-- Top menu on small screens -->
-<div class="mobile-logo"><img class="logo" src="Images/logo.png" alt="Game Logo"/></div>
+
+<div class="top-punchline-row container ">
+    <div class="top-punchline-column top-punchline-column-contact">
+        <div class="top-punchline-contact-line">
+            <h2>Contact Information</h2>
+        </div>
+        <div class="top-punchline-contact-line">
+            <i class="fas fa-envelope"></i> Email: your.email@example.com
+        </div>
+        <div class="top-punchline-contact-line ">
+            <i class="fas fa-phone"></i> Phone: (123) 456-7890
+        </div>
+        <div class="top-punchline-contact-line">
+            <i class="fab fa-linkedin"></i> LinkedIn: <a href="https://www.linkedin.com/in/yourname">Your LinkedIn
+            Profile</a>
+        </div>
+    </div>
+    <div class="top-punchline-column top-punchline-column-image">
+        <img src="Images/Punchline.png" alt="Punchline Image">
+    </div>
+
+</div>
+<!--<div class="mobile-logo"><img class="logo" src="Images/PersonalLogo.png" alt="Personal Logo"/></div>-->
 
 <!-- !PAGE CONTENT! -->
 <div class="main" style="margin-left:300px">
@@ -30,25 +53,10 @@
     <!-- Push down content on small screens -->
     <div class="hide-large" style="margin-top:200px"></div>
 
-    <!-- Photo grid -->
-
-    <div class="row">
-        <div class="column"><a href="JumpeeIsland.html"><img style="width:100%" src="Images/char1.png" class="third" alt="Babarian"></a></div>
-        <div class="column"><a href="DawnOfEmpires.html"> <img style="width:100%" src="Images/char3.png" class="third" alt="Angle"> </a></div>
-        <div class="column"><a href="Damaaz.html"> <img style="width:100%" src="Images/char5.png" class="third" alt="Queen of Ice"></a></div>
-    </div>
-
-    <div class="row">
-        <div class="column"><a href="LegendOfTribes.html"> <img style="width:100%" src="Images/char2.png" class="third" alt="Medusa"></a></div>
-        <div class="column"><a href="SmashTheStones.html"> <img style="width:100%" src="Images/char4.png" class="third" alt="Santa Claus"></a></div>
-        <div class="column"><a href="JourneyInFinancialMarket.html"> <img style="width:100%" src="Images/char6.png" class="third" alt="Hafling Deer"></a></div>
-    </div>
-
     <!-- About section -->
-    <div class="container dark-grey center text-light-grey padding-32">
-        <img src="Images/logo.png" alt="Me" class="image padding-32" width="600" height="650" id="about">
+    <div class="container center text-light-grey padding-32" id="about">
         <div class="content justify" style="max-width:600px">
-            <h2>Introduction</h2>
+            <h2>ABOUT ME</h2>
             <p>
                 Being Inspired by playing some battle games is that it takes much time to play. As a result, one
                 creative idea was chosen to create a battle game in a more straightforward way.
@@ -61,48 +69,114 @@
                 following to change the position character of each other and how to try keeping characters’ lives
             </p>
             <hr class="opacity">
-            <h2 class="padding-16">Work We Done</h2>
+            <h2 class="padding-16" id="skill">SKILLS</h2>
             <p class="wide">Photography</p>
             <div class="white">
-                <div class="container padding-small center grey" style="width:95%">95%</div>
+                <div class="container padding-small center dark-yellow" style="width:95%">95%</div>
             </div>
             <p class="wide">Unity Programming</p>
             <div class="white">
-                <div class="container padding-small center grey" style="width:85%">85%</div>
+                <div class="container padding-small center dark-yellow" style="width:85%">85%</div>
             </div>
             <p class="wide">Audio</p>
             <div class="white">
-                <div class="container padding-small center grey" style="width:80%">80%</div>
+                <div class="container padding-small center dark-yellow" style="width:80%">80%</div>
             </div>
+            <br>
         </div>
+    </div>
+
+    <!-- Experience grid -->
+
+    <div class="container dark-yellow center text-light-grey padding-32">
+
+        <h1>MY EXPERIENCES</h1>
+        <br>
+
+        <div class="image-grid" id="experience">
+            <div class="image-container">
+                <a href="JumpeeIsland.html">
+                    <img src="Images/Project1.png" alt="Image 1">
+                    <div class="image-overlay">
+                        <!-- Hidden details or content -->
+                        <p>Hidden Detail 1</p>
+                    </div>
+                </a>
+            </div>
+            <div class="image-container">
+                <a href="DawnOfEmpires.html">
+                    <img src="Images/Project2.png" alt="Image 2">
+                    <div class="image-overlay">
+                        <!-- Hidden details or content -->
+                        <p>Hidden Detail 2</p>
+                    </div>
+                </a>
+            </div>
+            <div class="image-container">
+                <a href="Damaaz.html">
+                    <img src="Images/Project3.png" alt="Image 3">
+                    <div class="image-overlay">
+                        <!-- Hidden details or content -->
+                        <p>Hidden Detail 2</p>
+                    </div>
+                </a>
+            </div>
+            <div class="image-container">
+                <a href="LegendOfTribes.html">
+                    <img src="Images/Project4.png" alt="Image 4">
+                    <div class="image-overlay">
+                        <!-- Hidden details or content -->
+                        <p>Hidden Detail 2</p>
+                    </div>
+                </a>
+            </div>
+            <div class="image-container">
+                <a href="SmashTheStones.html">
+                    <img src="Images/Project5.png" alt="Image 5">
+                    <div class="image-overlay">
+                        <!-- Hidden details or content -->
+                        <p>Hidden Detail 2</p>
+                    </div>
+                </a>
+            </div>
+            <div class="image-container">
+                <a href="JourneyInFinancialMarket.html">
+                    <img src="Images/char1.png" alt="Image 6">
+                    <div class="image-overlay">
+                        <!-- Hidden details or content -->
+                        <p>Hidden Detail 2</p>
+                    </div>
+                </a>
+            </div>
+            <!-- Add more image-container elements as needed -->
+        </div>
+
     </div>
 
     <!-- Contact section -->
-    <div class="container light-grey center padding-32 padding-large" id="contact">
-        <div class="content" style="max-width:600px">
-            <h2 class="center"><b>CONTACT ME</b></h2>
-            <p>Do this game inspire you? Fill out the form and fill me in with the details :) I love meeting new people
-                and listen to feetbacks!</p>
-            <form action="/action_page.php" target="_blank">
-                <div class="section">
-                    <label>Name</label>
-                    <input class="border" type="text" name="Name" required>
-                </div>
-                <div class="section">
-                    <label>Email</label>
-                    <input class="border" type="text" name="Email" required>
-                </div>
-                <div class="section">
-                    <label>Message</label>
-                    <input class="border" type="text" name="Message" required>
-                </div>
-                <button type="submit" class="block black dark-grey argin-bottom">Send Message</button>
-            </form>
-        </div>
-    </div>
+    <!--    <div class="container light-grey center padding-32 padding-large" id="contact">-->
+    <!--        <div class="content" style="max-width:600px">-->
+    <!--            <h2 class="center"><b>CONTACT ME</b></h2>-->
+    <!--            <p>Do this game inspire you? Fill out the form and fill me in with the details :) I love meeting new people-->
+    <!--                and listen to feetbacks!</p>-->
+
+    <!--            <div class="contact-info">-->
+    <!--                <div class="contact-line">-->
+    <!--                    <i class="fas fa-envelope"></i> Email: your.email@example.com-->
+    <!--                </div>-->
+    <!--                <div class="contact-line">-->
+    <!--                    <i class="fas fa-phone"></i> Phone: (123) 456-7890-->
+    <!--                </div>-->
+    <!--                <div class="contact-line">-->
+    <!--                    <i class="fab fa-linkedin"></i> LinkedIn: <a href="https://www.linkedin.com/in/yourname">Your-->
+    <!--                    LinkedIn Profile</a>-->
+    <!--                </div>-->
+    <!--            </div>-->
+    <!--        </div>-->
+    <!--    </div>-->
 
     <!-- Footer -->
-    <footer class="container padding-32 grey">
+    <footer class="container padding-32">
         <div class="row">
             <div class="column">
                 <h3>INFO</h3>
@@ -134,11 +208,11 @@
                 <h3>POPULAR TAGS</h3>
                 <p>
                     <span class="tag black margin-bottom">RoyalRaffle</span>
-                    <span class="tag dark-grey small margin-bottom">RPGGAME</span>
-                    <span class="tag dark-grey small margin-bottom">Indiegame</span>
-                    <span class="tag dark-grey small margin-bottom">Leisure bestchoice</span>
-                    <span class="tag dark-grey small margin-bottom">NANYKAlab</span>
-                    <span class="tag dark-grey small margin-bottom">AquamarineProducts</span>
+                    <span class="tag white-grey small margin-bottom">RPGGAME</span>
+                    <span class="tag white-grey small margin-bottom">Indiegame</span>
+                    <span class="tag white-grey small margin-bottom">Leisure bestchoice</span>
+                    <span class="tag white-grey small margin-bottom">NANYKAlab</span>
+                    <span class="tag white-grey small margin-bottom">AquamarineProducts</span>
                 </p>
             </div>
 
