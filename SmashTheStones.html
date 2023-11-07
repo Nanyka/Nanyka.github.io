@@ -1,78 +1,126 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="w3.css">
     <link rel="stylesheet" href="styleGamePage.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Freckle+Face&family=Indie+Flower&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title> Santa Claus </title>
+    <title> Stone Smash Saga </title>
 </head>
-
 <body>
+<nav class="sidebar center-sidebar" style="width:40%">
+    <div class="bgimg" style="background-image: url('Images/Project5.png');">
+        <a href="index.html" class="return-button">
+            <i class="material-icons">arrow_back</i>
+        </a>
+    </div>
+</nav>
 
-    <!-- Navbar (sit on top) -->
-    <div class="w3-top">
-        <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
-            <a href="index.html" class="w3-bar-item w3-button">Home</a>
-        </div>
+<!-- Page Content -->
+<div class="main padding-large" style="margin-left:40%">
+
+    <!-- About Section -->
+    <div class="content justify text-white" id="about">
+        <h2>GENERAL INFORMATION</h2>
+        <hr class="opacity">
+        <p>
+            Jumpee Island, an individual project that combines the principles of <span class="highlight-text-yellow">reinforcement learning NPCs</span> with the complexity of a turn-based game enriched with challenging puzzles, akin to a game of chess. The core objective of the game is to raise your island while safeguarding it from other players' invasions. In the backdrop, <span class="highlight-text-yellow">Unity Game Services serve as the backend solution to deliver LiveOps</span> to players, adding an extra layer of dynamic engagement to this unique gaming experience.
+        </p>
+
+        <ul>
+            <li>GooglePlayStore: <a href="https://play.google.com/store/apps/details?id=com.NanykaLab.ThreeElementsLastHit">GooglePlayStore link</a></li>
+            <li>Github: <a href="https://github.com/Nanyka/Barter3D">Stone Smash Saga github</a></li>
+            <li><p>Demo video: <a href="https://youtu.be/WQcwiJzQTAk">Jumpee Island video</a></p>
+                <video controls width="640" height="360">
+                    <source src="Images/Project5-Trailer.mp4" type="video/mp4">
+                </video>
+            </li>
+            <li><p>Screenshots</p>
+                <img src="Images/Project5-Pic1.png" alt="pic1">
+                <img src="Images/Project5-Pic2.png" alt="pic2">
+            </li>
+        </ul>
+
+    </div>
+    <br>
+    <!-- End About Section -->
+
+    <!-- MyContribution Section -->
+    <div class="content justify text-white">
+        <h2>MY CONTRIBUTION</h2>
+        <hr class="opacity">
+        <ul>
+            <li><p><span class="highlight-text-yellow"><b>Game designer:</b>></span> Gameplay and game mechanic design; level design.</p></li>
+            <li><p><span class="highlight-text-yellow"><b>Game programmer:</b></span> Trajectory and shooting system; gameplay programming; UI; local saving system.</p></li>
+            <li><p><span class="highlight-text-yellow"><b>Game monetization:</b></span> Building a monetization plan; and implementing in-app purchases and reward ads.</p></li>
+            <li><p><span class="highlight-text-yellow"><b>Technical Artist:</b></span> Arrange lighting sources and handle lighting for game levels; design and implement particle system; feedback system design.</p></li>
+        </ul>
+
+    </div>
+    <br>
+    <!-- End About Section -->
+
+    <!-- WhatITookAway Section -->
+    <div class="content justify text-white">
+        <h2>WHAT I TOOK AWAY</h2>
+        <hr class="opacity">
+        <h3 class="highlight-text-yellow">Game design procedural</h3>
+        <p>
+            Throughout the process of learning game design, I have created several essential documents, including the Game Concept, Asset and Inventory lists, Sprint Plan, and CDC Card. 
+            Initially, I had reservations about investing time in paperwork, fearing it might be a time-consuming endeavor. 
+            However, as I progressed through the project and encountered setbacks due to inadequate design documents, I came to a profound realization. While having a meticulous plan from the outset doesn't guarantee a successful project, I learned that not prioritizing a well-structured plan virtually assures the onset of failure. 
+            This experience has underscored the critical importance of careful planning in the game design process.
+        </p>
+        <h3 class="highlight-text-yellow">Balance between difficulty and player skill</h3>
+        <p>
+            Balancing in game design holds a pivotal role due to two primary reasons that drive player engagement and retention: frustration and boredom. 
+            These two factors are the core sources behind why individuals cease playing a game. 
+            Therefore, achieving the right balance is crucial in creating an enticing and enduring gaming experience.
+        </p>
+        <h3 class="highlight-text-yellow">F2P & Monetization</h3>
+        <p>
+            In implementing the Free-to-Play (F2P) monetization model for the game, I used a combination of ads and in-app purchases. 
+            However, this approach didn't perform as well as expected. 
+            I learned two important lessons: first, excessive ads can frustrate players, highlighting the need for careful ad placement. 
+            Second, for this game, the F2P strategy, offering most gameplay for free and charging for extended content, proved to be a more effective monetization method compared to relying solely on ads.
+        </p>
+        <img src="Images/Project5-Pic4.png" alt="Table1">
+        <p><i>Tutorial Design</i></p>
+        <h3 class="highlight-text-yellow">Mobile game marketing</h3>
+        <p>
+            In the realm of mobile game marketing, I've taken the initiative to create a marketing kit from scratch, comprising a compelling trailer video and attention-grabbing ad posters to capture the essence of our game and say 'hello world.' 
+            However, one of the significant hurdles I encountered was the selection of appropriate marketing channels. 
+            To tackle this challenge, I ventured into a variety of advertisement tools, thoroughly exploring their respective advantages and disadvantages, with a particular focus on App Store Optimization (ASO). 
+            In my perspective, the pinnacle of effective marketing remains the quality of the game itself, as it serves as the most powerful and persuasive marketing tool.
+        </p>
+        <img src="Images/Project5-Pic3.png" alt="Table1">
+        <p><i>Tutorial Design</i></p>
+        
+    </div>
+    <!-- End About Section -->
+
+    <!-- Validation -->
+    <wbr>
+    <div class="center">
+        <p>
+            &copy; BinhLai, 2021<br />
+            <a href="http://validator.w3.org/check?uri=https://nanyka.github.io/Babarian.html">
+                <img style="border:none;height:31px;width:31px;text-decoration:none;"
+                     src="http://myy.haaga-helia.fi/~valju/ValidatorLogos/html_logo_grayscale_31.png"
+                     alt="Valid HTML" />
+            </a>
+
+            <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fnanyka.github.io%2FstyleGamePage.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">
+                <img style="border:none;width:88px;height:31px;text-decoration:none;"
+                     src="http://myy.haaga-helia.fi/~valju/ValidatorLogos/css_logo_grayscale_31.png"
+                     alt="Valid CSS" />
+            </a>
+        </p>
     </div>
 
-    <!-- Header -->
-    <header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
-        <img class="w3-image" src="Images/Char4-1.png" alt="Angle" width="1600" height="500">
-        <div class="w3-display-bottomleft w3-padding-large w3-opacity darkbackground">
-            <h1 class="w3-xxlarge w3-text-light-grey">SANTA CLAUS</h1>
-        </div>
-    </header>
-
-    <!-- Page content -->
-    <div class="w3-content" style="max-width:1100px">
-
-        <!-- About Section -->
-        <div class="w3-row w3-padding-64" id="about">
-            <div class="w3-col m6 w3-padding-large w3-hide-small">
-                <img src="Images/Char4-2.png" alt="Table Setting" width="500" height="750">
-            </div>
-
-            <div class="w3-col m6 w3-padding-large">
-                <h1 class="w3-center">About Santa Claus</h1><br>
-                <h5 class="w3-center">King of presents</h5>
-                <p class="w3-large">
-                    Santa Claus, also known as Father Christmas, Saint Nicholas, Saint Nick, Kris Kringle, or simply Santa, is a legendary character originating in Western Christian culture who is said to bring gifts on Christmas Eve of toys and candy to well-behaved children, and either coal or nothing to naughty children. He is said to accomplish this with the aid of Christmas elves, who make the toys in his workshop at the North Pole, and flying reindeer who pull his sleigh through the air.
-                    The modern character of Santa Claus was based on traditions surrounding the historical Saint Nicholas (a fourth-century Greek bishop and gift-giver of Myra), the English figure of Father Christmas, and the Dutch figure of Sinterklaas (also based on Saint Nicholas).
-                </p>
-                <button class="button light-grey padding-large margin-top">
-                    <i class="fa fa-download"></i> Download Introduction
-                </button>
-            </div>
-        </div>
-
-        <hr>
-
-        <!-- End page content -->
-    </div>
-
-    <!-- Footer -->
-    <footer class="w3-center w3-light-grey w3-padding-32">
-        <div class="center">
-            <p>
-                &copy; BinhLai, 2021<br />
-                <a href="http://validator.w3.org/check?uri=https://nanyka.github.io/Santa.html">
-                    <img style="border:none;height:31px;width:31px;text-decoration:none;"
-                         src="http://myy.haaga-helia.fi/~valju/ValidatorLogos/html_logo_grayscale_31.png"
-                         alt="Valid HTML" />
-                </a>
-
-                <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fnanyka.github.io%2FstyleGamePage.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">
-                    <img style="border:none;width:88px;height:31px;text-decoration:none;"
-                         src="http://myy.haaga-helia.fi/~valju/ValidatorLogos/css_logo_grayscale_31.png"
-                         alt="Valid CSS" />
-                </a>
-            </p>
-        </div>
-    </footer>
-
+</div>
+<!-- END PAGE CONTENT -->
 
 </body>
 </html>
