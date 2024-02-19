@@ -1,10 +1,22 @@
 ﻿<!DOCTYPE html>
+<!--[if lt IE 7 ]>
+<html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]>
+<html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]>
+<html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en"> <!--<![endif]-->
+
 <html lang="en">
 <head>
     <link rel="stylesheet" href="styleGamePage.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
     <link rel="stylesheet"
           href="https://fonts.googleapis.com/css2?family=Freckle+Face&family=Indie+Flower&display=swap">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
+          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="referer" content="always">
@@ -16,11 +28,23 @@
 <nav class="sidebar bar-block animate-left grey text-white collapse top center-sidebar"
      style="z-index:3;width:300px;font-weight:bold" id="mySidebar">
     <br>
-    <img class="logo" src="Images/PersonalLogo.png" alt="Personal Logo"/>
-    <a href="#about" class="bar-item button">ABOUT ME</a>
-    <a href="#skill" class="bar-item button">SKILLS</a>
-    <a href="#experience" class="bar-item button">EXPERIENCE</a>
-    <a href="#reference" class="bar-item button">REFERENCE</a>
+    <!--    <img class="logo" src="Images/Portfolio_Icon.png" alt="Personal Logo"/>-->
+    <div class="image_wrap">
+        <img class="logo" src="Images/Portfolio_Icon.png" alt="Personal Logo"/>
+    </div>
+    <div class="menu_list_wrap">
+        <ul class="anchor_nav">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skill">Abilities</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <!--            <li><a href="#reference">Reference</a></li>-->
+        </ul>
+    </div>
+
+    <!--    <a href="#about" class="bar-item button">ABOUT ME</a>-->
+    <!--    <a href="#skill" class="bar-item button">SKILLS</a>-->
+    <!--    <a href="#experience" class="bar-item button">EXPERIENCE</a>-->
+    <!--    <a href="#reference" class="bar-item button">REFERENCE</a>-->
 </nav>
 
 <!-- Top menu on small screens -->
@@ -41,7 +65,7 @@
         </div>
     </div>
     <div class="top-punchline-column top-punchline-column-image">
-        <img src="Images/Punchline.png" alt="Punchline Image">
+        <img src="Images/Introduce_Icon.png" alt="Punchline Image">
     </div>
 
 </div>
@@ -57,48 +81,97 @@
     <div class="container center text-light-grey padding-32" id="about">
         <div class="content justify" style="max-width:600px">
             <h2>ABOUT ME</h2>
-            <p>
-                Hello, I'm Binh Lai, a seasoned <span class="highlight-text-yellow">GAME PROGRAMMER</span> with a deep commitment to crafting engaging gaming experiences. Throughout my career, I've dedicated myself to creating captivating games that resonate with players and continue to push the boundaries of what's possible in the gaming world.
-                <br>
-                Recently, I've embarked on an exciting journey to broaden my focus within the gaming industry. While my heart remains firmly in game programming, I've also ventured into the realm of game investment. Drawing from <span class="highlight-text-yellow">my background in financial investment</span>, including roles in asset management, market research, and development planning, I've been exploring how to apply my financial expertise to the world of gaming.
-                <br>
-                My goal is to leverage my programming skills and financial knowledge to contribute to the ever-evolving gaming landscape, whether it's creating innovative games or investing in promising game projects. I'm dedicated to learning, growing, and making meaningful contributions to both game development and investment. Let's connect and explore how we can collaborate to shape the future of the gaming industry.
-            </p>
+            <div class="definition">
+                <p>
+                    I am <b>Binh Lai</b>, and I am itching to explore the uncharted territory where mobile games meet
+                    data science and deep learning.
+                    <br>
+                    I have spent years crafting engaging game experiences, and pushing the boundaries of what code can
+                    do. Now, I'm bursting with excitement to see how AI can revolutionize mobile gaming.
+                    <br>
+                    I am fired up to dive into this new realm. Whether it's unleashing the power of deep learning to
+                    craft intelligent enemies, or using data science to optimize game balance, I'm eager to collaborate
+                    with anyone who shares my passion.
+                </p>
+            </div>
             <hr class="opacity">
             <h2 class="padding-16" id="skill">SKILLS</h2>
-            <p class="wide">Game programming</p>
-            <div class="white">
-                <div class="container padding-small center dark-yellow" style="width:95%">95%</div>
+
+            <div class="two-column-content">
+                <div class="container">
+                    <div class="column">
+                        <p class="wide">C#</p>
+                        <div class="white">
+                            <div class="container padding-small center dark-yellow" style="width:95%">95%</div>
+                        </div>
+                        <p class="wide">Unity</p>
+                        <div class="white">
+                            <div class="container padding-small center dark-yellow" style="width:95%">95%</div>
+                        </div>
+                        <p class="wide">UGS-Backend</p>
+                        <div class="white">
+                            <div class="container padding-small center dark-yellow" style="width:95%">90%</div>
+                        </div>
+                        <p class="wide">Javascript</p>
+                        <div class="white">
+                            <div class="container padding-small center dark-yellow" style="width:95%">75%</div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p class="wide">ML-Agent</p>
+                        <div class="white">
+                            <div class="container padding-small center dark-yellow" style="width:90%">90%</div>
+                        </div>
+                        <p class="wide">Python</p>
+                        <div class="white">
+                            <div class="container padding-small center dark-yellow" style="width:85%">80%</div>
+                        </div>
+                        <p class="wide">Deep RL</p>
+                        <div class="white">
+                            <div class="container padding-small center dark-yellow" style="width:85%">80%</div>
+                        </div>
+                        <p class="wide">Business data analysis</p>
+                        <div class="white">
+                            <div class="container padding-small center dark-yellow" style="width:90%">90%</div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <p class="wide">AI in game</p>
-            <div class="white">
-                <div class="container padding-small center dark-yellow" style="width:90%">90%</div>
-            </div>
-            <p class="wide">LiveOps programming</p>
-            <div class="white">
-                <div class="container padding-small center dark-yellow" style="width:85%">85%</div>
-            </div>
-            <p class="wide">Game economic</p>
-            <div class="white">
-                <div class="container padding-small center dark-yellow" style="width:95%">95%</div>
-            </div>
-            <p class="wide">Game monetization</p>
-            <div class="white">
-                <div class="container padding-small center dark-yellow" style="width:85%">85%</div>
-            </div>
-            <p class="wide">Business analysis</p>
-            <div class="white">
-                <div class="container padding-small center dark-yellow" style="width:90%">90%</div>
-            </div>
+
+
+            <!--            <p class="wide">Game programming</p>-->
+            <!--            <div class="white">-->
+            <!--                <div class="container padding-small center dark-yellow" style="width:95%">95%</div>-->
+            <!--            </div>-->
+            <!--            <p class="wide">AI in game</p>-->
+            <!--            <div class="white">-->
+            <!--                <div class="container padding-small center dark-yellow" style="width:90%">90%</div>-->
+            <!--            </div>-->
+            <!--            <p class="wide">LiveOps programming</p>-->
+            <!--            <div class="white">-->
+            <!--                <div class="container padding-small center dark-yellow" style="width:85%">85%</div>-->
+            <!--            </div>-->
+            <!--            <p class="wide">Game economic</p>-->
+            <!--            <div class="white">-->
+            <!--                <div class="container padding-small center dark-yellow" style="width:95%">95%</div>-->
+            <!--            </div>-->
+            <!--            <p class="wide">Game monetization</p>-->
+            <!--            <div class="white">-->
+            <!--                <div class="container padding-small center dark-yellow" style="width:85%">85%</div>-->
+            <!--            </div>-->
+            <!--            <p class="wide">Business analysis</p>-->
+            <!--            <div class="white">-->
+            <!--                <div class="container padding-small center dark-yellow" style="width:90%">90%</div>-->
+            <!--            </div>-->
             <br>
         </div>
     </div>
 
     <!-- Experience grid -->
 
-    <div class="container dark-yellow center text-light-grey padding-32">
+    <div class="container dark-blue center text-light-grey padding-32">
 
-        <h1>MY EXPERIENCES</h1>
+        <h2>MY EXPERIENCES</h2>
         <br>
 
         <div class="image-grid" id="experience">
@@ -184,67 +257,68 @@
     </div>
 
     <!-- Footer -->
-    <footer class="container padding-32" id="reference">
-        <div class="row">
-            <div class="column">
-                <h3>INFO</h3>
-                <p>My role as a <b>LEVEL-UP DEVELOPER</b> perfectly complements my passion for game programming and my expanding focus on game investment.</p>
-            </div>
+<!--    <footer class="container padding-32" id="reference">-->
+<!--        <div class="row">-->
+<!--            <div class="column">-->
+<!--                <h3>INFO</h3>-->
+<!--                <p>My role as a <b>LEVEL-UP DEVELOPER</b> perfectly complements my passion for game programming and my-->
+<!--                    expanding focus on game investment.</p>-->
+<!--            </div>-->
 
-            <div class="column">
-                <h3>REFERENCES</h3>
-                <ul class="ul">
-                    <li class="padding-16 hover-black">
-                        <a href="https://www.reuters.com/article/esports-business-gaming-economy-idUSFLM6F7yh2">
-                            <img src="Images/Reuters.png" class="left margin-right" style="width:50px" alt="Workshop">
-                        </a>
-                        <span class="large">Reuters</span><br>
-                        <span>Gaming industry contributed $90B to U.S. economy in 2019</span>
-                    </li>
-                    <li class="padding-16 hover-black">
-                        <a href="https://www.washingtonpost.com/news/wonk/wp/2012/09/28/the-economics-of-video-games/">
-                            <img src="Images/WP.png" class="left margin-right" style="width:50px" alt="Newspaper">
-                        </a>
-                        <span class="large">The Washington Post</span><br>
-                        <span>The economics of video games</span>
-                    </li>
-                </ul>
-            </div>
+<!--            <div class="column">-->
+<!--                <h3>REFERENCES</h3>-->
+<!--                <ul class="ul">-->
+<!--                    <li class="padding-16 hover-black">-->
+<!--                        <a href="https://www.reuters.com/article/esports-business-gaming-economy-idUSFLM6F7yh2">-->
+<!--                            <img src="Images/Reuters.png" class="left margin-right" style="width:50px" alt="Workshop">-->
+<!--                        </a>-->
+<!--                        <span class="large">Reuters</span><br>-->
+<!--                        <span>Gaming industry contributed $90B to U.S. economy in 2019</span>-->
+<!--                    </li>-->
+<!--                    <li class="padding-16 hover-black">-->
+<!--                        <a href="https://www.washingtonpost.com/news/wonk/wp/2012/09/28/the-economics-of-video-games/">-->
+<!--                            <img src="Images/WP.png" class="left margin-right" style="width:50px" alt="Newspaper">-->
+<!--                        </a>-->
+<!--                        <span class="large">The Washington Post</span><br>-->
+<!--                        <span>The economics of video games</span>-->
+<!--                    </li>-->
+<!--                </ul>-->
+<!--            </div>-->
 
-            <div class="column">
-                <h3>POPULAR TAGS</h3>
-                <p>
-                    <span class="tag black margin-bottom">RoyalRaffle</span>
-                    <span class="tag white-grey small margin-bottom">RPGGAME</span>
-                    <span class="tag white-grey small margin-bottom">Indiegame</span>
-                    <span class="tag white-grey small margin-bottom">Leisure bestchoice</span>
-                    <span class="tag white-grey small margin-bottom">NANYKAlab</span>
-                    <span class="tag white-grey small margin-bottom">AquamarineProducts</span>
-                </p>
-            </div>
+<!--            <div class="column">-->
+<!--                <h3>POPULAR TAGS</h3>-->
+<!--                <p>-->
+<!--                    <span class="tag black margin-bottom">RoyalRaffle</span>-->
+<!--                    <span class="tag white-grey small margin-bottom">RPGGAME</span>-->
+<!--                    <span class="tag white-grey small margin-bottom">Indiegame</span>-->
+<!--                    <span class="tag white-grey small margin-bottom">Leisure bestchoice</span>-->
+<!--                    <span class="tag white-grey small margin-bottom">NANYKAlab</span>-->
+<!--                    <span class="tag white-grey small margin-bottom">AquamarineProducts</span>-->
+<!--                </p>-->
+<!--            </div>-->
 
-        </div>
+<!--        </div>-->
 
-        <!-- Validation -->
-        <wbr>
-        <div class="center">
-            <p>
-                &copy; BinhLai, 2021<br/>
-                <a href="http://validator.w3.org/check?uri=https://nanyka.github.io/index.html">
-                    <img style="border:none;height:31px;width:31px;text-decoration:none;"
-                         src="http://myy.haaga-helia.fi/~valju/ValidatorLogos/html_logo_grayscale_31.png"
-                         alt="Valid HTML"/>
-                </a>
+<!--        &lt;!&ndash; Validation &ndash;&gt;-->
+<!--        <wbr>-->
+<!--        <div class="center">-->
+<!--            <p>-->
+<!--                &copy; BinhLai, 2021<br/>-->
+<!--                <a href="http://validator.w3.org/check?uri=https://nanyka.github.io/index.html">-->
+<!--                    <img style="border:none;height:31px;width:31px;text-decoration:none;"-->
+<!--                         src="http://myy.haaga-helia.fi/~valju/ValidatorLogos/html_logo_grayscale_31.png"-->
+<!--                         alt="Valid HTML"/>-->
+<!--                </a>-->
 
-                <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fnanyka.github.io%2FstyleGamePage.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">
-                    <img style="border:none;width:88px;height:31px;text-decoration:none;"
-                         src="http://myy.haaga-helia.fi/~valju/ValidatorLogos/css_logo_grayscale_31.png"
-                         alt="Valid CSS"/>
-                </a>
-            </p>
-        </div>
+<!--                <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fnanyka.github.io%2FstyleGamePage.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">-->
+<!--                    <img style="border:none;width:88px;height:31px;text-decoration:none;"-->
+<!--                         src="http://myy.haaga-helia.fi/~valju/ValidatorLogos/css_logo_grayscale_31.png"-->
+<!--                         alt="Valid CSS"/>-->
+<!--                </a>-->
+<!--            </p>-->
+<!--        </div>-->
 
-    </footer>
+<!--    </footer>-->
 
     <!-- End page content -->
 </div>
