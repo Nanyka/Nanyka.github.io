@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="styleGamePage.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Freckle+Face&family=Indie+Flower&display=swap">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Freckle+Face&family=Indie+Flower&display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
           rel="stylesheet">
@@ -27,12 +28,19 @@
     <div class="content justify text-white" id="about">
         <h2>GENERAL INFORMATION</h2>
         <hr class="opacity">
-        <p>
-            Enter the enchanting realm of 'Legend of Tribe,' where I, a seasoned game programmer, designer, and storyteller, have left my mark. My primary goal has always been to create an immersive player experience. To achieve this, I've carefully designed the gameplay and AI system, utilizing advanced Goal-Oriented Action Planning (GOAP) techniques. As the driving force behind the game's development, I've painstakingly crafted a seamless balance between gameplay, the tutorial system, and the reward structure, ensuring they all work in perfect harmony.
-        </p>
+        <div class="definition"><p>
+            <p>
+                Enter the enchanting realm of 'Legend of Tribe,' where I, a seasoned game programmer, designer, and
+                storyteller, have left my mark. My primary goal has always been to create an immersive player
+                experience. To achieve this, I've carefully designed the gameplay and AI system, utilizing advanced
+                Goal-Oriented Action Planning (GOAP) techniques. As the driving force behind the game's development,
+                I've painstakingly crafted a seamless balance between gameplay, the tutorial system, and the reward
+                structure, ensuring they all work in perfect harmony.
+            </p></div>
         <ul>
             <li>Github: <a href="https://github.com/Nanyka/Legend-of-Tribes">Legend of tribes github</a></li>
-            <li><p>Demo video: <a href="https://youtu.be/MHIfg0rRk8o?si=DKQ14-vKL2hwC4y6">Legend of tribes trailer video</a></p>
+            <li><p>Demo video: <a href="https://youtu.be/MHIfg0rRk8o?si=DKQ14-vKL2hwC4y6">Legend of tribes trailer
+                video</a></p>
                 <video controls width="640" height="360">
                     <source src="Images/Project4-Trailer.mp4" type="video/mp4">
                 </video>
@@ -48,16 +56,35 @@
     <!-- End About Section -->
 
     <!-- TODO -->
-    
+
     <!-- MyContribution Section -->
     <div class="content justify text-white">
         <h2>MY CONTRIBUTION</h2>
         <hr class="opacity">
         <ul>
-            <li><p><span class="highlight-text-yellow"><b>Game programmer:</b></span> Applying GOAP as a core AI system for NPCs; gameplay programming; setting up a saving system using a MySQL database and an on-device backup.</p></li>
-            <li><p><span class="highlight-text-yellow"><b>Game economics:</b></span> Design game economy based on economic principles; calculate and balance between in-game rewards and expensive; motivation and feeling design</p></li>
-            <li><p><span class="highlight-text-yellow"><b>Game designer:</b>></span> Gameplay and game mechanic design; level design; character design.</p></li>
-            <li><p><span class="highlight-text-yellow"><b>Technical Artist:</b></span> Arrange lighting sources and handle lighting for game levels; design and implement particle system; feedback system design.</p></li>
+            <li>
+                <div class="definition"><p>
+                    <p><span class="highlight-text-yellow"><b>Game programmer:</b></span> Applying GOAP as a core AI
+                        system for NPCs; gameplay programming; setting up a saving system using a MySQL database and an
+                        on-device backup.</p></div>
+            </li>
+            <li>
+                <div class="definition"><p>
+                    <p><span class="highlight-text-yellow"><b>Game economics:</b></span> Design game economy based on
+                        economic principles; calculate and balance between in-game rewards and expensive; motivation and
+                        feeling design</p></div>
+            </li>
+            <li>
+                <div class="definition"><p>
+                    <p><span class="highlight-text-yellow"><b>Game designer:</b>></span> Gameplay and game mechanic
+                        design; level design; character design.</p></div>
+            </li>
+            <li>
+                <div class="definition"><p>
+                    <p><span class="highlight-text-yellow"><b>Technical Artist:</b></span> Arrange lighting sources and
+                        handle lighting for game levels; design and implement particle system; feedback system design.
+                    </p></div>
+            </li>
         </ul>
 
     </div>
@@ -69,46 +96,98 @@
         <h2>WHAT I TOOK AWAY</h2>
         <hr class="opacity">
         <h3 class="highlight-text-yellow">Coding</h3>
-        <p>I'm following a dedicated learning journey to develop my IT skills. 
-            It all starts with building a strong foundation by mastering essential programming concepts like Object-Oriented Programming (OOP), design patterns, unit testing, and refactoring. 
-            Once I've solidified these skills, I'll move on to more advanced topics, including diving deeper into Data Structures and Algorithms. 
-            Looking ahead, my learning path includes exploring concepts such as Entity-Component-System (ECS) and delving into the world of databases. 
-            This is how I'm shaping my journey to become a proficient programmer.
-        </p>
+        <div class="definition"><p>
+            <p>I'm following a dedicated learning journey to develop my IT skills.
+                It all starts with building a strong foundation by mastering essential programming concepts like
+                Object-Oriented Programming (OOP), design patterns, unit testing, and refactoring.
+                Once I've solidified these skills, I'll move on to more advanced topics, including diving deeper into
+                Data Structures and Algorithms.
+                Looking ahead, my learning path includes exploring concepts such as Entity-Component-System (ECS) and
+                delving into the world of databases.
+                This is how I'm shaping my journey to become a proficient programmer.
+            </p></div>
         <h3 class="highlight-text-yellow">Goal-Oriented Action Planning (GOAP)</h3>
         <h4>What I need to do better</h4>
         <ul>
             <li>
                 <h4>Performance</h4>
-                <p>Minimize the number of world state variables. Most of the boolean states must folder into one enumeration</p>
-                <p>Keep plan length short: Move logic out of the planner into other systems; the planner does not need to do everything; Let other specialized systems take some of the burden  Turn from low-level design to high-level design</p>
+                <div class="definition"><p>
+                    <p>Minimize the number of world state variables. Most of the boolean states must folder into one
+                        enumeration</p></div>
+                <div class="definition"><p>
+                    <p>Keep plan length short: Move logic out of the planner into other systems; the planner does not
+                        need to do everything; Let other specialized systems take some of the burden  Turn from
+                        low-level design to high-level design</p></div>
             </li>
             <li>
                 <h4>Upgrade to Dynamic system</h4>
-                <p>Enable Goal to mark a child Action as completed before the child Action completes on its own  The RangedAttack Action might require that the client must be within 5m of a tar-get, and then monitor the status of the target to force GoTo Action to terminate early.</p>
-                <p>Enable Goal to dynamically change the requirements while child Action is still in progress  When the target moves, it can change the requirement end position for child Action, or tell it to move to a new destination that just became available or viable. This often force Actions to monitor their requirements dynamically to make sure they are still achievable.</p>
+                <div class="definition"><p>
+                    <p>Enable Goal to mark a child Action as completed before the child Action completes on its own 
+                        The RangedAttack Action might require that the client must be within 5m of a tar-get, and then
+                        monitor the status of the target to force GoTo Action to terminate early.</p></div>
+                <div class="definition"><p>
+                    <p>Enable Goal to dynamically change the requirements while child Action is still in progress  When
+                        the target moves, it can change the requirement end position for child Action, or tell it to
+                        move to a new destination that just became available or viable. This often force Actions to
+                        monitor their requirements dynamically to make sure they are still achievable.</p></div>
             </li>
             <li>
                 <h4>Evaluating and communicating the Plan’s state</h4>
-                <p>Goal or Action can monitor the status of the Plan while child Actions are still running and cause it to abort  A parent Action or Goal could determine the target is no longer valid (Agent are dead or its intended target is no longer available) or it is no longer the best target.</p>
-                <p>The Goal can also use its awareness of the current state of the Plan to communicate with other NPCs  Notify other NPCs when GoTo Action is running.</p>
-                <p>Actions do not necessarily need to be completed as soon as they have completed one iter-ation of the required Action  The RangedAttack Action can turn into allowed to take sev-eral shots while it is still in available range.</p>
+                <div class="definition"><p>
+                    <p>Goal or Action can monitor the status of the Plan while child Actions are still running and cause
+                        it to abort  A parent Action or Goal could determine the target is no longer valid (Agent are
+                        dead or its intended target is no longer available) or it is no longer the best target.</p>
+                </div>
+                <div class="definition"><p>
+                    <p>The Goal can also use its awareness of the current state of the Plan to communicate with other
+                        NPCs  Notify other NPCs when GoTo Action is running.</p></div>
+                <div class="definition"><p>
+                    <p>Actions do not necessarily need to be completed as soon as they have completed one iter-ation of
+                        the required Action  The RangedAttack Action can turn into allowed to take sev-eral shots while
+                        it is still in available range.</p></div>
             </li>
             <li>
                 <h4>Evaluating and communicating the Plan’s state</h4>
-                <p>Goal or Action can monitor the status of the Plan while child Actions are still running and cause it to abort  A parent Action or Goal could determine the target is no longer valid (Agent are dead or its intended target is no longer available) or it is no longer the best target.</p>
-                <p>The Goal can also use its awareness of the current state of the Plan to communicate with other NPCs  Notify other NPCs when GoTo Action is running.</p>
-                <p>Actions do not necessarily need to be completed as soon as they have completed one iter-ation of the required Action  The RangedAttack Action can turn into allowed to take sev-eral shots while it is still in available range.</p>
-                <p>--> I just replan for each shot but do not reuse the state that is still available when the Agent stands right at the place to conduct RangedAttack multiple times.</p>
-                <p>The GOAP system can keep track of success rates for Goals and Actions and can turn to use that to influence planning  Require different GOAP settings for different NPC types. For example, a melee NPC increases its success rate of Melee Attack and turns to allow its Me-lee Attack Action lowering the cost from each success slash it conducted.</p>
-                <p>Use a Behaviour Graph to drive Goal selection, rather than prioritize a list of Goals. This en-ables the designer to create tree- or DAG-like logic for Goal selection depending on the current status of NPCs. For example, an NPC in a pre-combat state might have only one Goal to consider (with a logic to cause certain Goals to be evaluated only in certain situations), and another set of Goals for higher alert levels, including higher-customized logic for Goal evaluations in combat situations.</p>
+                <div class="definition"><p>
+                    <p>Goal or Action can monitor the status of the Plan while child Actions are still running and cause
+                        it to abort  A parent Action or Goal could determine the target is no longer valid (Agent are
+                        dead or its intended target is no longer available) or it is no longer the best target.</p>
+                </div>
+                <div class="definition"><p>
+                    <p>The Goal can also use its awareness of the current state of the Plan to communicate with other
+                        NPCs  Notify other NPCs when GoTo Action is running.</p></div>
+                <div class="definition"><p>
+                    <p>Actions do not necessarily need to be completed as soon as they have completed one iter-ation of
+                        the required Action  The RangedAttack Action can turn into allowed to take sev-eral shots while
+                        it is still in available range.</p></div>
+                <div class="definition"><p>
+                    <p>--> I just replan for each shot but do not reuse the state that is still available when the Agent
+                        stands right at the place to conduct RangedAttack multiple times.</p></div>
+                <div class="definition"><p>
+                    <p>The GOAP system can keep track of success rates for Goals and Actions and can turn to use that to
+                        influence planning  Require different GOAP settings for different NPC types. For example, a
+                        melee NPC increases its success rate of Melee Attack and turns to allow its Me-lee Attack Action
+                        lowering the cost from each success slash it conducted.</p></div>
+                <div class="definition"><p>
+                    <p>Use a Behaviour Graph to drive Goal selection, rather than prioritize a list of Goals. This
+                        en-ables the designer to create tree- or DAG-like logic for Goal selection depending on the
+                        current status of NPCs. For example, an NPC in a pre-combat state might have only one Goal to
+                        consider (with a logic to cause certain Goals to be evaluated only in certain situations), and
+                        another set of Goals for higher alert levels, including higher-customized logic for Goal
+                        evaluations in combat situations.</p></div>
             </li>
         </ul>
         <img src="Images/Project3-AIArchitecture.png" alt="AI architecture">
         <p><i>GOAP architecture</i></p>
-        
+
         <h3 class="highlight-text-yellow">Technical art</h3>
-        <p>My journey in mastering the art of creating visual effects for Unity games begins with a comprehensive study of VFX design, starting from the very basics and progressing towards a polished end product. The next crucial step is the development of a particle system, which is the key to translating my design ideas into captivating visual experiences. To achieve this, I recognize the importance of mastering several prerequisites that form the foundation of this VFX section, including Shader Graph, material design, trails, and particle systems.</p>
+        <div class="definition"><p>
+        <p>My journey in mastering the art of creating visual effects for Unity games begins with a comprehensive study
+            of VFX design, starting from the very basics and progressing towards a polished end product. The next
+            crucial step is the development of a particle system, which is the key to translating my design ideas into
+            captivating visual experiences. To achieve this, I recognize the importance of mastering several
+            prerequisites that form the foundation of this VFX section, including Shader Graph, material design, trails,
+            and particle systems.</p></div>
         <img src="Images/Project4-DesignVfx.png" alt="Vfx architecture1">
         <p><i>Design visual effect</i></p>
         <img src="Images/Project4-BuildMaterial.png" alt="Vfx architecture2">
@@ -122,17 +201,17 @@
     <wbr>
     <div class="center">
         <p>
-            &copy; BinhLai, 2021<br />
+            &copy; BinhLai, 2021<br/>
             <a href="http://validator.w3.org/check?uri=https://nanyka.github.io/Babarian.html">
                 <img style="border:none;height:31px;width:31px;text-decoration:none;"
                      src="http://myy.haaga-helia.fi/~valju/ValidatorLogos/html_logo_grayscale_31.png"
-                     alt="Valid HTML" />
+                     alt="Valid HTML"/>
             </a>
 
             <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fnanyka.github.io%2FstyleGamePage.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">
                 <img style="border:none;width:88px;height:31px;text-decoration:none;"
                      src="http://myy.haaga-helia.fi/~valju/ValidatorLogos/css_logo_grayscale_31.png"
-                     alt="Valid CSS" />
+                     alt="Valid CSS"/>
             </a>
         </p>
     </div>

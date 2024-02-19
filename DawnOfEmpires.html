@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="styleGamePage.css">
-<!--    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Freckle+Face&family=Indie+Flower&display=swap">-->
+    <!--    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Freckle+Face&family=Indie+Flower&display=swap">-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
           rel="stylesheet">
@@ -27,9 +27,16 @@
     <div class="content justify text-white" id="about">
         <h2>GENERAL INFORMATION</h2>
         <hr class="opacity">
-        <p>
-            In late 2022, I was fortunate to secure an internship position as a game programmer at <a href="https://www.landellgames.com/"><span class="highlight-text-yellow">Landell Games</span></a>, where I joined the development team working on their real-time strategy (RTS) title, Dawn of Empires. This invaluable opportunity has provided me with a firsthand experience of the game industry and has allowed me to gain insights into collaborative team dynamics in the context of an actual game development project.
-        </p>
+        <div class="definition"><p>
+            <p>
+                In late 2022, I was fortunate to secure an internship position as a game programmer at <a
+                    href="https://www.landellgames.com/"><span class="highlight-text-yellow">Landell Games</span></a>,
+                where I joined the development team working on their real-time strategy (RTS) title, Dawn of Empires.
+                This invaluable opportunity has provided me with a firsthand experience of the game industry and has
+                allowed me to gain insights into collaborative team dynamics in the context of an actual game
+                development project.
+            </p>
+        </div>
 
         <ul>
             <li>Website: <a href="https://www.dawnofempires.com/">Dawn of Empires</a></li>
@@ -44,8 +51,12 @@
         <h2>MY CONTRIBUTION</h2>
         <hr class="opacity">
         <ul>
-            <li><p><span class="highlight-text-yellow"><b>Game programmer:</b></span> Modifying the finite state machine (FSM) system, implementing the NavMesh system of Unity following specific requirements, and programming gameplay following game design.</p></li>
-            <li><p><span class="highlight-text-yellow"><b>Game machine learning researcher:</b></span> How to use <span class="highlight-text-yellow">ML-Agent of Unity</span> to develop a virtual player that improves its skills as it plays over time.</p></li>
+            <li><p><span class="highlight-text-yellow"><b>Game programmer:</b></span> Modifying the finite state machine
+                (FSM) system, implementing the NavMesh system of Unity following specific requirements, and programming
+                gameplay following game design.</p></li>
+            <li><p><span class="highlight-text-yellow"><b>Game machine learning researcher:</b></span> How to use <span
+                    class="highlight-text-yellow">ML-Agent of Unity</span> to develop a virtual player that improves its
+                skills as it plays over time.</p></li>
         </ul>
 
     </div>
@@ -57,10 +68,18 @@
         <h2>WHAT I DID</h2>
         <hr class="opacity">
         <h3 class="highlight-text-yellow">1. AI in game programming</h3>
-        <p>As an AI programmer on this project, my primary role revolves around crafting the intricate behaviors of non-playable characters (NPCs) that populate the world of Dawn of Empires. 
-            My responsibilities encompass not only designing the NPCs' behaviors but also ensuring their seamless integration with the game's Navmesh system. 
-            This crucial collaboration between an AI system like <span class="highlight-text-yellow">behaviour tree</span> and navigation systems is essential to bring the NPCs to life, enabling them to navigate the game world with finesse, respond intelligently to in-game stimuli, and contribute to the overall immersive experience that players will encounter in this strategic realm.
-        </p>
+        <div class="definition"><p>
+            <p>As an AI programmer on this project, my primary role revolves around crafting the intricate behaviors of
+                non-playable characters (NPCs) that populate the world of Dawn of Empires.
+                My responsibilities encompass not only designing the NPCs' behaviors but also ensuring their seamless
+                integration with the game's Navmesh system.
+                This crucial collaboration between an AI system like <span
+                        class="highlight-text-yellow">behaviour tree</span> and navigation systems is essential to bring
+                the NPCs to life, enabling them to navigate the game world with finesse, respond intelligently to
+                in-game stimuli, and contribute to the overall immersive experience that players will encounter in this
+                strategic realm.
+            </p>
+        </div>
         <video controls width="640" height="360">
             <source src="Images/Project2-Task1.mp4" type="video/mp4">
         </video>
@@ -75,35 +94,60 @@
         <p><i>Modifying NPC's behaviours as workers based on project owner</i></p>
         <h3 class="highlight-text-yellow">2. Game machine learning research</h3>
         <h4>Question</h4>
-        <p>"How can I use ML-Agent of Unity to develop a virtual player that improves its skills as it plays over time?”</p>
+        <div class="definition"><p>
+            <p>"How can I use ML-Agent of Unity to develop a virtual player that improves its skills as it plays over
+                time?”</p>
+        </div>
+        
         <h4>Solution: <span class="highlight-text-yellow">Reinforcement learning model</span></h4>
-        <p>RL has several advantages when applying it in multiplayer RTS games to deal with the case lacking of players in the very first stage of the game: 
-            * RL agents can learn to play the game without any human supervision. This is important for RTS games, where it can be difficult to find enough players to test the game in the early stages of development.
-            * RL agents can adapt to different opponents and strategies. This is important for RTS games, where players often use different strategies to win.
-            * RL agents can be used to create bots that can play against human players. This can help to improve the player experience, even when there are not enough human players available.</p>
-        <h4><span class="highlight-text-yellow">How to design the Reinforcement learning models for this game?</span></h4>
+        <div class="definition"><p>
+        <p>RL has several advantages when applying it in multiplayer RTS games to deal with the case lacking of players
+            in the very first stage of the game:
+            * RL agents can learn to play the game without any human supervision. This is important for RTS games, where
+            it can be difficult to find enough players to test the game in the early stages of development.
+            * RL agents can adapt to different opponents and strategies. This is important for RTS games, where players
+            often use different strategies to win.
+            * RL agents can be used to create bots that can play against human players. This can help to improve the
+            player experience, even when there are not enough human players available.</p>
+        </div>
+        <h4><span class="highlight-text-yellow">How to design the Reinforcement learning models for this game?</span>
+        </h4>
         <ul>
             <li>
-                <p>* Analyse the requirements and design an AI system for these requirements: I highlighted specific AI systems and explained the scenarios where they should be applied</p>
+                <div class="definition"><p>
+                <p>* Analyse the requirements and design an AI system for these requirements: I highlighted specific AI
+                    systems and explained the scenarios where they should be applied</p></div>
                 <img src="Images/Project2-AIRequirements.png" alt="Slide1">
             </li>
             <li>
-                <p>* Build training environment by ML-Agent of Unity</p>
+                <div class="definition"><p><p>* Build training environment by ML-Agent of Unity</p></div>
                 <img src="Images/Project2-BuildEnv.jpeg" alt="Slide1">
             </li>
             <li>
-                <p>* Dock it on cloud using Google Cloud Services & Docker: GCS becomes an integral part of the process by offering its tools. Pub/Sub will be utilized for real-time data gathering, while Cloud Storage will collect batch data. Data engineering tasks will be carried out in Dataflow. Lastly, VertexAI of BigQuery serves as the platform for model training</p>
+                <div class="definition"><p>
+                <p>* Dock it on cloud using Google Cloud Services & Docker: GCS becomes an integral part of the process
+                    by offering its tools. Pub/Sub will be utilized for real-time data gathering, while Cloud Storage
+                    will collect batch data. Data engineering tasks will be carried out in Dataflow. Lastly, VertexAI of
+                    BigQuery serves as the platform for model training</p></div>
                 <img src="Images/Project2-SystemArchitecture.png" alt="Slide3">
                 <img src="Images/Project2-GCS.png" alt="Slide4">
             </li>
             <li>
-                <p>* Implement the models in NPCs: I packaged the game into a playable version, challenge players by a machine-learning opponent. In this game, the player commands the blue faction while the virtual player controls the orange faction. The primary objective of this game is to strategically jump over obstacles in order to trigger attack abilities and defeat opposing units. As you can observe, winning against the AI player is no simple feat.</p>
+                <div class="definition"><p>
+                <p>* Implement the models in NPCs: I packaged the game into a playable version, challenge players by a
+                    machine-learning opponent. In this game, the player commands the blue faction while the virtual
+                    player controls the orange faction. The primary objective of this game is to strategically jump over
+                    obstacles in order to trigger attack abilities and defeat opposing units. As you can observe,
+                    winning against the AI player is no simple feat.</p></div>
                 <video controls width="640" height="360">
                     <source src="Images/Project2-RLTrailer.mp4" type="video/mp4">
                 </video>
             </li>
             <li>
-                <p>Honestly, training a real-time reinforcement learning model with ML-Agent of Unity is currently a nearly impossible task. However, the emergence of the new tool, Sentis, could bring a fresh perspective and unlock the potential of reinforcement learning in the gaming industry.</p>
+                <div class="definition"><p>
+                <p>Honestly, training a real-time reinforcement learning model with ML-Agent of Unity is currently a
+                    nearly impossible task. However, the emergence of the new tool, Sentis, could bring a fresh
+                    perspective and unlock the potential of reinforcement learning in the gaming industry.</p></div>
             </li>
         </ul>
     </div>
@@ -113,17 +157,17 @@
     <wbr>
     <div class="center">
         <p>
-            &copy; BinhLai, 2021<br />
+            &copy; BinhLai, 2021<br/>
             <a href="http://validator.w3.org/check?uri=https://nanyka.github.io/Babarian.html">
                 <img style="border:none;height:31px;width:31px;text-decoration:none;"
                      src="http://myy.haaga-helia.fi/~valju/ValidatorLogos/html_logo_grayscale_31.png"
-                     alt="Valid HTML" />
+                     alt="Valid HTML"/>
             </a>
 
             <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fnanyka.github.io%2FstyleGamePage.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">
                 <img style="border:none;width:88px;height:31px;text-decoration:none;"
                      src="http://myy.haaga-helia.fi/~valju/ValidatorLogos/css_logo_grayscale_31.png"
-                     alt="Valid CSS" />
+                     alt="Valid CSS"/>
             </a>
         </p>
     </div>
