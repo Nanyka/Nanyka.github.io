@@ -42,7 +42,7 @@ li {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 20px;
+    margin-bottom: auto;
     width: 68%
 }
 
@@ -726,4 +726,17 @@ i {
     letter-spacing: 1px;
     word-wrap: break-word;
     font-weight: 400;
+}
+
+.screenshots-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* two columns of equal width */
+    gap: 10px;                              /* adjust spacing between images */
+}
+
+/* Optional: make sure the images fill their grid cells nicely */
+.screenshots-grid img {
+    width: 100%;
+    height: auto;
+    display: block;
 }
