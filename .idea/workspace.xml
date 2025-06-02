@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9cf7928-e58f-4d52-b47d-4fd2d44d2b95" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Damaaz.html" beforeDir="false" afterPath="$PROJECT_DIR$/Damaaz.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/Project6.png" beforeDir="false" afterPath="$PROJECT_DIR$/Images/Project6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JourneyInFinancialMarket.html" beforeDir="false" afterPath="$PROJECT_DIR$/ZeroTicTacToe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styleGamePage.css" beforeDir="false" afterPath="$PROJECT_DIR$/styleGamePage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZeroTicTacToe.html" beforeDir="false" afterPath="$PROJECT_DIR$/ZeroTicTacToe.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +57,7 @@
       <updated>1746975287180</updated>
       <workItem from="1746975288326" duration="1267000" />
       <workItem from="1747245991786" duration="155000" />
-      <workItem from="1748881287242" duration="5435000" />
+      <workItem from="1748881287242" duration="6157000" />
     </task>
     <servers />
   </component>
