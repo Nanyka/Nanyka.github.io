@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9cf7928-e58f-4d52-b47d-4fd2d44d2b95" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/support_prophetix.html" beforeDir="false" afterPath="$PROJECT_DIR$/support_prophetix.html" afterDir="false" />
-    </list>
+    <list default="true" id="c9cf7928-e58f-4d52-b47d-4fd2d44d2b95" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,6 +57,7 @@
       <workItem from="1747245991786" duration="155000" />
       <workItem from="1748881287242" duration="6157000" />
       <workItem from="1756190348273" duration="392000" />
+      <workItem from="1756190787687" duration="149000" />
     </task>
     <servers />
   </component>
