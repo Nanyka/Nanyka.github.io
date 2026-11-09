@@ -1,0 +1,10 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["5J3B6JM88H.com.nanykalab.hearthold"],
+        "components": [{ "/": "/heartholdgame/f/*", "comment": "A Hearthold friend invite opens the game on ADD A FRIEND" }]
+      }
+    ]
+  }
+}
