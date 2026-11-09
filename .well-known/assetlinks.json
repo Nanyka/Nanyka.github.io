@@ -1,0 +1,10 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.nanykalab.hearthold",
+      "sha256_cert_fingerprints": ["95:FD:C1:C4:74:B3:6C:8F:FE:21:F3:A7:C5:13:24:41:08:67:92:A6:4F:7E:F6:3C:7B:AC:BC:DA:B9:5D:28:AC"]
+    }
+  }
+]
